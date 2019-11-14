@@ -1,0 +1,8 @@
+;; -*- mode: scheme; -*-
+
+(channel
+ (version 0)
+ (dependencies
+  (channel
+   (name ttyh)
+   (url "https://gitlab.com/guix-channels/ttyh-channel.git"))))
