@@ -10,9 +10,9 @@
   #:use-module (guix licenses))
 
 (define-public ttyhlauncher
-  (let ((version "2.0.1")
+  (let ((version "2.0.2")
         (revision "1")
-        (commit "5a9f25946d57ebf09befd579100f9c60061f6f17"))
+        (commit "8da331926995919c9dfece00bd7c1e72b9228d52"))
     (package
      (name "ttyhlauncher")
      (version (git-version version revision commit))
@@ -24,7 +24,7 @@
                 (commit commit)))
               (sha256
                (base32
-                "03qi67hkvb5abgd1dw77mn3fn9rvhdyiqfabj74hzaxymn1sr09z"))))
+                "0srdy99wljv9jr69kp0npnrwz2p9s6qhgvw3haqq5zyjl30yx6r5"))))
      (build-system cmake-build-system)
      (arguments
       '(#:tests? #f))
